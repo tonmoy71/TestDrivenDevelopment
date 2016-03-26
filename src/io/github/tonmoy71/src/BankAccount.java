@@ -27,4 +27,8 @@ public class BankAccount {
     public void calculateInterest(int balance) {
         this.balance = balance + balance * .15;
     }
+
+    public void calculateMonthlyBalance(int balance, int month) {
+        int monthlyBalance = balance / month;
+    }
 }

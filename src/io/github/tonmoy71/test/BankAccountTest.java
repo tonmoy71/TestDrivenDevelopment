@@ -32,4 +32,12 @@ public class BankAccountTest {
 
     }
 
+    @Test (expected = ArithmeticException.class)
+    public void testCalculateMonthlyBalance()
+    {
+        BankAccount account = new BankAccount();
+        account.calculateMonthlyBalance(100, 0);
+
+    }
+
 }
