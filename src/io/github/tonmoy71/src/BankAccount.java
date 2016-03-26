@@ -8,10 +8,6 @@ public class BankAccount {
         balance = i;
     }
 
-    public BankAccount() {
-        balance = 0;
-    }
-
     public void deposit(int value) {
         balance += value;
     }

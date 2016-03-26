@@ -15,13 +15,13 @@ public class BankAccountTest {
     @BeforeClass
     public static void beforeClass()
     {
-        System.out.println("beforeClass()");
+
     }
 
     @Before
     public void setUp() {
         account = new BankAccount(100);
-        System.out.println("setup()");
+
     }
 
 
@@ -52,13 +52,13 @@ public class BankAccountTest {
     public void tearDown()
     {
         account = null;
-        System.out.println("tearDown()");
+
     }
 
 
     @AfterClass
     public static void afterClass()
     {
-        System.out.println("afterClass()");
+
     }
 }
